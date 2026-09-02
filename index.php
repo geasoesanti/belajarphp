@@ -7,16 +7,16 @@
 </head>
 <body>
     <?php
-    $nama = "Budi"
+    $nama = "Budi";
     $umur = 30;
     $sudahmenikah = false;
 
     echo "Nama saya $nama, umur saya $umur tahun";
 
     if ($sudahmenikah == true) {
-        echo "Sudah menikah"
+        echo "Sudah menikah";
     } else {
-        echo "Belum menikah"
+        echo "Belum menikah";
     }
 
     for ($i=1; $i < 10; $i+=2) {
@@ -24,6 +24,7 @@
         echo $i;
     }
 
+    $harga = 112000;
     if ($harga > 100000) {
         $disk = $harga * 0.10;
         $total = $harga - $disk;
@@ -31,6 +32,17 @@
     } else {
         echo "Total belanja Anda adalah $harga";
     }
+
+    $mhs = ['Deni', 'Sindi', 'Deka'];
+    //$datamhs = [$nama = "Merry", $umur = 20, $kelas = "A", $prodi = "BD"];
+    //echo "Nama saya $datamhs["nama"], umur saya $datamhs["umur"], saya dari kelas $datamhs["kelas"] prodi $datamhs["prodi"]";
+
+    function perkalian($angka1, $angka2) {
+        return $angka1 * $angka2;
+    }
+
+    $hasil = perkalian(20,10);
+    echo $hasil;
     ?>
 </body>
 </html>
