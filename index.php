@@ -7,42 +7,48 @@
 </head>
 <body>
     <?php
-    $nama = "Budi";
-    $umur = 30;
-    $sudahmenikah = false;
+    // $nama = "Budi";
+    // $umur = 30;
+    // $sudahmenikah = false;
 
-    echo "Nama saya $nama, umur saya $umur tahun";
+    // echo "Nama saya $nama, umur saya $umur tahun";
 
-    if ($sudahmenikah == true) {
-        echo "Sudah menikah";
-    } else {
-        echo "Belum menikah";
-    }
+    // if ($sudahmenikah == true) {
+    //     echo "Sudah menikah";
+    // } else {
+    //     echo "Belum menikah";
+    // }
 
-    for ($i=1; $i < 10; $i+=2) {
-        echo "<br>";
-        echo $i;
-    }
+    // for ($i=1; $i < 10; $i+=2) {
+    //     echo "<br>";
+    //     echo $i;
+    // }
 
-    $harga = 112000;
-    if ($harga > 100000) {
-        $disk = $harga * 0.10;
-        $total = $harga - $disk;
-        echo "Total belanja Anda adalah $total";
-    } else {
-        echo "Total belanja Anda adalah $harga";
-    }
+    // $harga = 112000;
+    // if ($harga > 100000) {
+    //     $disk = $harga * 0.10;
+    //     $total = $harga - $disk;
+    //     echo "Total belanja Anda adalah $total";
+    // } else {
+    //     echo "Total belanja Anda adalah $harga";
+    // }
 
-    $mhs = ['Deni', 'Sindi', 'Deka'];
-    //$datamhs = [$nama = "Merry", $umur = 20, $kelas = "A", $prodi = "BD"];
-    //echo "Nama saya $datamhs["nama"], umur saya $datamhs["umur"], saya dari kelas $datamhs["kelas"] prodi $datamhs["prodi"]";
+    // $mhs = ['Deni', 'Sindi', 'Deka'];
+    // //$datamhs = [$nama = "Merry", $umur = 20, $kelas = "A", $prodi = "BD"];
+    // //echo "Nama saya $datamhs["nama"], umur saya $datamhs["umur"], saya dari kelas $datamhs["kelas"] prodi $datamhs["prodi"]";
 
-    function perkalian($angka1, $angka2) {
-        return $angka1 * $angka2;
-    }
+    // function perkalian($angka1, $angka2) {
+    //     return $angka1 * $angka2;
+    // }
 
-    $hasil = perkalian(20,10);
-    echo $hasil;
+    // $hasil = perkalian(20,10);
+    // echo $hasil;
+
+    // $hargabarang = 100000;
+    // $kodepromo = "PROMO30";
+    // $kodepromo = str_replace("PROMO", "", "PROMO30");
+    // echo "Angka $kodepromo";
+
     ?>
 </body>
 </html>
